@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: RAW
+    database: ELECTION_ANALYSIS
+    schema: ELECTION_SCHEMA
+    tables:
+      - name: generalelections2024
+
+
+models:
+  - name: stg_candidates
+    columns:
+      - name: candidate
+        tests:
+          - not_null
