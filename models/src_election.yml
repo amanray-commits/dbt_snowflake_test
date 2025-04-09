@@ -6,7 +6,11 @@ sources:
     schema: ELECTION_SCHEMA
     tables:
       - name: generalelections2024
-
+  - name: bollywood_db
+    database: bollywood_db   
+    schema: bollywood_schema
+    tables:
+      - name: movies_raw
 
 models:
   - name: stg_candidates
