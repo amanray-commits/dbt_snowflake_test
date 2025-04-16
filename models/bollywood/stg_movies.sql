@@ -50,5 +50,5 @@ WITH source AS (
 
 )
 
-SELECT * FROM source where release_date is not null and original_language = 'hi'
+SELECT * FROM source where release_date is not null 
  
